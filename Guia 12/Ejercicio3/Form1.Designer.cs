@@ -54,7 +54,6 @@
             label1.Size = new Size(45, 15);
             label1.TabIndex = 1;
             label1.Text = "Listado";
-            label1.Click += label1_Click;
             // 
             // lsbListado
             // 
@@ -64,7 +63,7 @@
             lsbListado.Name = "lsbListado";
             lsbListado.Size = new Size(254, 109);
             lsbListado.TabIndex = 3;
-            lsbListado.SelectedIndexChanged += lsbListado_SelectedIndexChanged;
+
             // 
             // label2
             // 
@@ -74,7 +73,7 @@
             label2.Size = new Size(58, 15);
             label2.TabIndex = 4;
             label2.Text = "Cantidad:";
-            label2.Click += label2_Click;
+
             // 
             // lbCantidad
             // 
@@ -97,7 +96,7 @@
             Controls.Add(btnSolicitar);
             Name = "Form1";
             Text = "EjemploModal";
-            Load += Form1_Load;
+
             ResumeLayout(false);
             PerformLayout();
         }

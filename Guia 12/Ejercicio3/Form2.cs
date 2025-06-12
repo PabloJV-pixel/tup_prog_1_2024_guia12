@@ -16,5 +16,10 @@ namespace Ejercicio3
         {
             InitializeComponent();
         }
+
+        private void tbValor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
